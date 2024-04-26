@@ -1,4 +1,4 @@
-# AID Scene Classification on Remote Sensing data from Google earth with Transfer Learning, LIME, and GradCAM
+# AID Scene Classification on Remote Sensing Data from Google Earth, Leveraging Transfer Learning, and Interpretation of Predictions Using LIME and GradCAM.
 
 This repository contains code (ipynb) for a scene classification model using transfer learning on the AID dataset ([https://www.kaggle.com/datasets/jiayuanchengala/aid-scene-classification-datasets](https://www.kaggle.com/datasets/jiayuanchengala/aid-scene-classification-datasets)), along with functionalities for explaining predictions using LIME (Local Interpretable Model-Agnostic Explanations) and GradCAM (Gradient-weighted Class Activation Mapping). Additionally, a user interface built with Gradio allows users to upload or paste images for classification and visual explanation.
 
