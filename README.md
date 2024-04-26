@@ -35,7 +35,7 @@ pip install tensorflow keras lime grad-cam gradio
 
 3. **Train the model and predict (Image Classifier):**
 
-   * Train the model yourself or we will upload the model or provide the drive link to the model, the processed data and its label very soon.
+   * Train the model yourself or we will upload the model/provide the drive link to the model, the processed data and its label very soon.
    * Partial Classification Model: `11_Class_Classification_Model.ipynb` with 11 class labels.
    * Classification Model: `Classification_Model.ipynb` with 30 class labels.
 
@@ -56,4 +56,4 @@ pip install tensorflow keras lime grad-cam gradio
 * This readme provides a general overview. Refer to the code within the repository (`.ipynb`) for detailed implementation and configuration options.
 * The pre-trained model and any additional data files might be stored separately. Modify the code to point to the correct locations.
 
-This project offers a starting point for exploring transfer learning, explainable AI techniques, and building user interfaces for image classification tasks using the AID dataset.
+This project offers a starting point for exploring transfer learning, explainable AI techniques, and building user interfaces for image classification and explanation tasks on the AID dataset(ae rial image dataset).
