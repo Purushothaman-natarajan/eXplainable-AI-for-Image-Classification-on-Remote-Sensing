@@ -33,11 +33,19 @@ pip install tensorflow keras lime grad-cam gradio
    * Download the AID dataset from Kaggle ([https://www.kaggle.com/datasets/jiayuanchengala/aid-scene-classification-datasets](https://www.kaggle.com/datasets/jiayuanchengala/aid-scene-classification-datasets)).
    * Place the downloaded data in a directory named `data` within the project folder.
 
-3. ** Train the model and predict:**
+3. **Train the model and predict (Image Classifier):**
 
    * Train the model yourself or we will upload the model or provide the drive link to the model, the processed data and its label very soon.
+   * Partial Classification Model: `11_Class_Classification_Model.ipynb` with 11 class labels.
+   * Classification Model: `Classification_Model.ipynb` with 30 class labels.
 
-4. **Interface:**
+4. **Explainers:**
+   
+   * LIME: It perturbs the input data and fit it to a linear model to explain the predictions from the Image Classifier.
+   * Grad-CAM: Uses Class Activation Mapping to provide a visual explanation about the features that's contributing for the prediction.
+   * For Explainer codes refer : `Explainer_and_its_Interface.ipynb`
+
+5. **Interface:**
 
    * Upload an image or paste an image URL in the provided field.
    * Click "Predict" to receive the model's prediction with probability, class label, and visual explanations using LIME and GradCAM.
