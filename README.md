@@ -41,8 +41,8 @@ pip install tensorflow keras lime grad-cam gradio
 
 4. **Explainers:**
    
-   * LIME: It perturbs the input data and fit it to a linear model to explain the predictions from the Image Classifier.
-   * Grad-CAM: Uses Class Activation Mapping to provide a visual explanation about the features that's contributing for the prediction.
+   * LIME: It perturbs the input data and fits it to a linear model to explain the predictions from the Image Classifier.
+   * Grad-CAM: Uses Class Activation Mapping to provide a visual explanation about the features that's highly contributing for the prediction.
    * For Explainer codes refer : `Explainer_and_its_Interface.ipynb`
 
 5. **Interface:**
