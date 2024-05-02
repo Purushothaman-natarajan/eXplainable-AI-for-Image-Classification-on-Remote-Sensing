@@ -38,6 +38,12 @@ pip install tensorflow keras lime grad-cam gradio
    * Train the model yourself or we will upload the model/provide the drive link to the model, the processed data and its label very soon.
    * Partial Classification Model: `11_Class_Classification_Model.ipynb` with 11 class labels.
    * Classification Model: `Classification_Model.ipynb` with 30 class labels.
+   * Epoch-wise loss and accuracy is given below.
+
+<p align="center">
+  <img src="https://github.com/Purushothaman-natarajan/Image-Classification-on-Remote-Sensing/blob/main/data's/Epoch-wise%20accuracy%20on%20the%20training%20and%20validation%20sets.png" width="400" />
+  <img src="https://github.com/Purushothaman-natarajan/Image-Classification-on-Remote-Sensing/blob/main/data's/Epoch-wise%20loss%20on%20validation%20set.png" width="400" />
+</p>
 
 4. **Explainers:**
    
@@ -50,10 +56,25 @@ pip install tensorflow keras lime grad-cam gradio
    * Upload an image or paste an image URL in the provided field.
    * Click "Predict" to receive the model's prediction with probability, class label, and visual explanations using LIME and GradCAM.
    * For Interface codes refer : `Explainer_and_its_Interface.ipynb`
+   * Interface preview is depicted below:
+  
+<p align="center">
+  <img src="https://github.com/Purushothaman-natarajan/Image-Classification-on-Remote-Sensing/blob/main/data's/Interface%20preview%20-%201.png" />
+  <br>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Purushothaman-natarajan/Image-Classification-on-Remote-Sensing/blob/main/data's/Interface%20preview%20-%202.png" />
+  <br>
+</p>
+
+<p align="center">
+  <em>Interface Preview</em>
+</p>
 
 ### Notes
 
 * This readme provides a general overview. Refer to the code within the repository (`.ipynb`) for detailed implementation and configuration options.
 * The pre-trained model and any additional data files might be stored separately. Modify the code to point to the correct locations.
 
-This project offers a starting point for exploring transfer learning, explainable AI techniques, and building user interfaces for image classification and explanation tasks on the AID dataset(ae rial image dataset).
+This project offers a starting point for exploring transfer learning, explainable AI techniques, and building user interfaces for image classification and explanation tasks on the AID dataset(aerial image dataset).
