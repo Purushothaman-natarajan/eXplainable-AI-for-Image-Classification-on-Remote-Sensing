@@ -39,8 +39,9 @@ zip_path = '/content/drive/MyDrive/RS LLM/Classification Model/Dataset/AID Datas
 extract_path = '/content/drive/MyDrive/RS LLM/Classification Model/Dataset'
 unzip_folder(zip_path, extract_path)
 
-!pip install opencv-python
 
+# Install necessary Libraries:
+!pip install opencv-python
 !pip install tensorflow==2.15
 !pip install keras==2.15.0
 !pip install scikit-learn
@@ -171,16 +172,19 @@ normalized_resized_images = np.array(resized_images)
 print("Shape of normalized_resized_images:", normalized_resized_images.shape)
 print("Data type of normalized_resized_images:", normalized_resized_images.dtype)
 
+# Plot one of the Image
 import matplotlib.pyplot as plt
 
 print(labels[0])
 plt.imshow(normalized_resized_images[0])
 plt.show()
 
+# Find the number of unique values in the dataset
 unique_labels = set(list(labels))
 num_labels = len(unique_labels)
 print(num_labels)
 
+# Encode the labels and store the processed data
 import numpy as np
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 
@@ -434,7 +438,7 @@ class_labels = ['Airport', 'BareLand', 'BaseballField', 'Beach', 'Bridge', 'Cent
 
 result = train_and_evaluate_model(X_train, y_train, X_test, y_test, custom_model, model_name, epochs=100)
 
-result
+print(result)
 
 """#### Test the model with the validation set but here its test set"""
 
