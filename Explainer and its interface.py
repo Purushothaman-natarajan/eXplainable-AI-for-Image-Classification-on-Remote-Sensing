@@ -8,9 +8,7 @@ Original file is located at
 
 ## **Explain the predictions of the Satellite Image Classification Model**
 
-**Author-1 : Purushothaman Natarajan**
-
-**Author-2 : Kamal Basha**
+**Author : Purushothaman Natarajan**
 
 Source Dataset : Kaggle
 
